@@ -1,0 +1,31 @@
+:root{
+    --bg-color: #333;
+    --text:deepskyblue;
+    --active:deeppink;
+   
+}
+
+
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.btn{
+    background: deepskyblue;
+    font-size: 30px;
+    color: black;
+    border:2px solid var(--active);
+    margin: 20px;
+    padding: 8px 13px;
+    font-weight: 400;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover{
+background-color: var(--active);
+}
